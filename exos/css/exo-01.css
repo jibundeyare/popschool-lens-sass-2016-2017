@@ -1,0 +1,33 @@
+#div1 {
+  background-color: pink;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px; }
+
+#div2 {
+  background-color: pink;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px; }
+
+#div3 {
+  background-color: pink;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px; }
+
+#div4 {
+  background-color: pink;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 150px; }
+
+/*# sourceMappingURL=exo-01.css.map */

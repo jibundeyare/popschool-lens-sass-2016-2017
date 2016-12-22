@@ -1,0 +1,31 @@
+$couleur: pink
+$hauteur: 200px
+$largeur: 150px
+
+@mixin rectangle()
+	background-color: $couleur
+	border-radius: 5px
+	height: $hauteur
+	position: absolute
+	width: $largeur
+
+#div1
+	@include rectangle()
+	top: 0
+	left: 0
+
+#div2
+	@include rectangle()
+	top: 0
+	right: 0
+
+#div3
+	@include rectangle()
+	bottom: 0
+	left: 0
+
+#div4
+	@include rectangle()
+	bottom: 0
+	right: 0
+
