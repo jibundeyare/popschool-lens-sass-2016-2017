@@ -1,11 +1,14 @@
+// exemple d'imbrication de bloc et de l'utilisation du symbol "&" (qui fait référence au parent)
+
 .mon-theme
 	background-color: lightgrey
 	padding: 10px
 
-	// composant lien
+	// composant lien (bloc imbriqué dans .mon-theme)
 	a
 		color: red
-	
+
+		// "&" fait référence à ".mon-theme a"
 		&:hover
 			color: blue
 
@@ -15,10 +18,11 @@
 		&:focus
 			color: black
 
-	// composant message
+	// composant message (bloc imbriqué dans .mon-theme)
 	.message
 		font-size: 1.5rem
 
+		// "&" fait référence à ".mon-theme .message"
 		&.info
 			color: green
 	
