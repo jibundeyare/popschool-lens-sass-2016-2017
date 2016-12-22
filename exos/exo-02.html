@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/exo-01.css" />
+    <link rel="stylesheet" type="text/css" href="css/exo-02.css" />
   </head>
   <body>
 
@@ -17,9 +17,10 @@
 
 		regroupez les propriétés communes à toutes les balises dans un @mixin:
 		- border-radius
-		- drop-shadow
+		- box-shadow
 		- max-width
 		- min-width
+		- width: 100%
 		
 		regroupez les propriétés communes aux balises select et input dans un autre @mixin :
 		- height avec la variable $input-height
@@ -28,5 +29,24 @@
 		- height avec la variable $textarea-height
 		-->
 
+	<form action="" method="post" enctype="multipart/form-data">
+
+		<div class="mon-theme">
+			<select>
+				<option value="1">pommes</option>
+				<option value="2">oranges</option>
+				<option value="3">fraises</option>
+			</select>
+		</div>
+
+		<div class="mon-theme">
+			<input type="text" value="" />
+		</div>
+
+		<div class="mon-theme">
+			<textarea></textarea>
+		</div>
+
+	</form>
   </body>
 </html>

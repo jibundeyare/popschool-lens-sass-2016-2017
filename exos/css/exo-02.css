@@ -1,3 +1,23 @@
-
+.mon-theme select {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+  height: 2rem; }
+.mon-theme input {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+  height: 2rem; }
+.mon-theme textarea {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+  height: 4rem; }
 
 /*# sourceMappingURL=exo-02.css.map */

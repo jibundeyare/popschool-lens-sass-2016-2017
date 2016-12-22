@@ -1,0 +1,26 @@
+$input-height: 2rem
+$textarea-height: 4rem
+
+@mixin mon-theme--champ
+	border-radius: 5px
+	box-shadow: 10px 5px 5px black
+	max-width: 500px
+	min-width: 200px
+	width: 100%
+
+@mixin mon-theme--hauteur-input
+	height: $input-height
+
+.mon-theme
+	select
+		@include mon-theme--champ
+		@include mon-theme--hauteur-input
+	
+	input
+		@include mon-theme--champ
+		@include mon-theme--hauteur-input
+	
+	textarea
+		@include mon-theme--champ
+		height: $textarea-height
+
