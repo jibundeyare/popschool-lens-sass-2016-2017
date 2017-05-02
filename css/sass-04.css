@@ -1,0 +1,14 @@
+.mon-theme fieldset {
+  border: 2px dotted lightgrey;
+}
+.mon-theme fieldset legend {
+  font-weight: bold;
+}
+.mon-theme fieldset input {
+  border-radius: 5px;
+}
+.mon-theme fieldset label {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=sass-04.css.map */

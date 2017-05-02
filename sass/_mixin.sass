@@ -1,0 +1,26 @@
+=border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+
+// mixin sans paramètres
+=ombre-portee()
+	box-shadow: 10px 5px 5px black
+
+// mixin avec 2 paramètres
+=ombre-portee-parametree($offset, $blur)
+	box-shadow: $offset $offset $blur black
+
+// mixin avec 3 paramètres
+=ombre-portee-parametree2($offsetX, $offsetY, $blur)
+	box-shadow: $offsetX $offsetY $blur black
+
+=ombre-portee-parametree3($offsetX, $offsetY, $blur, $couleur: black)
+	box-shadow: $offsetX $offsetY $blur $couleur
+
+=border-radius2($radius: 5px)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius

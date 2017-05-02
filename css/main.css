@@ -1,0 +1,87 @@
+body {
+  color: #FF0000;
+}
+
+input {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+div {
+  box-shadow: 10px 5px 5px black;
+}
+
+p {
+  box-shadow: 10px 10px 5px black;
+}
+
+label {
+  box-shadow: 7px 8px 5px black;
+}
+
+h1 {
+  box-shadow: 7px 8px 5px blue;
+}
+
+h2 {
+  box-shadow: 7px 8px 5px black;
+}
+
+select {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.message, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.encart, .citation, .illustration {
+  border: 1px dotted black;
+  background-color: #FF0000;
+}
+
+.citation {
+  font-size: 32px;
+}
+
+.illustration {
+  padding: 10px;
+}
+
+.text, .note, .titre1, .sous-titre1 {
+  color: #FF0000;
+  font-size: 16px;
+}
+
+.note {
+  color: #00FF00;
+}
+
+.titre1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sous-titre1 {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */

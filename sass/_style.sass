@@ -1,0 +1,64 @@
+body
+	color: $couleur-primaire
+
+input
+	+border-radius(10px)
+
+div
+	+ombre-portee()
+
+p
+	+ombre-portee-parametree(10px, 5px)
+
+label
+	+ombre-portee-parametree2(7px, 8px, 5px)
+
+h1
+	+ombre-portee-parametree3(7px, 8px, 5px, blue)
+
+h2
+	+ombre-portee-parametree3(7px, 8px, 5px)
+
+select
+	+border-radius2(15px)
+
+textarea
+	+border-radius2()
+
+.message
+	border: 1px solid #ccc
+	padding: 10px
+	color: #333
+
+.success
+	@extend .message
+	border-color: green
+
+.encart
+	border: 1px dotted black
+	background-color: $couleur-primaire
+
+.citation
+	@extend .encart
+	font-size: $font-size * 2
+
+.illustration
+	@extend .encart
+	padding: 10px
+
+.text
+	color: $couleur-primaire
+	font-size: $font-size
+
+.note
+	@extend .text
+	color: $couleur-secondaire
+
+.titre1
+	@extend .text
+	font-size: $font-size * 1.5
+	font-weight: bold
+
+.sous-titre1
+	@extend .text
+	font-style: italic
